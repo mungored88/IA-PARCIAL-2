@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5142084200774965823}
   - component: {fileID: 1673095658231707599}
   - component: {fileID: 4060531000104592132}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Medfan_RectBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

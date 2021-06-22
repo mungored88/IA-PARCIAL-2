@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Vortex : MonoBehaviour
 {
     public AudioSource vortex;
-    public int nextLevel;
+    
 
     // Update is called once per frame
     void Update()
@@ -19,8 +19,7 @@ public class Vortex : MonoBehaviour
         vortex.Play(0);
         if (other.gameObject.tag == "Player")
         {
-            FindObjectOfType<ObjParaCargarAsync>().nivelACargar = nextLevel;
-            SceneManager.LoadScene("LoadingScene");
+            SceneManager.LoadScene("03 win");
 
         }
     }

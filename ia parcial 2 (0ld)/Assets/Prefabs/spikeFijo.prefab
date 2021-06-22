@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 6099341361522420059}
   - component: {fileID: 6815560988947212824}
   - component: {fileID: 5421885037793387828}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: spikeFijo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,10 +139,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3500826086866614329, guid: 047416eca10ce804086ae1822409d08d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 047416eca10ce804086ae1822409d08d,
         type: 3}
       propertyPath: m_Name
       value: picks
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 047416eca10ce804086ae1822409d08d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2187449669427467095, guid: 047416eca10ce804086ae1822409d08d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5452068790998213776, guid: 047416eca10ce804086ae1822409d08d,
         type: 3}

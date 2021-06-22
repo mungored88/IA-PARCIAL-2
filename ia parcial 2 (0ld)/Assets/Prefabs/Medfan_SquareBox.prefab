@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8959343995692224386}
   - component: {fileID: 4378891904358005473}
   - component: {fileID: 2765353657376318174}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Medfan_SquareBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

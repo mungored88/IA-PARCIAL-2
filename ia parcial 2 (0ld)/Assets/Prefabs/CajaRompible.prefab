@@ -9,8 +9,7 @@ AudioSource:
   m_GameObject: {fileID: 8107842879708631839}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 7946189575455182953, guid: 656e0a54713e12c4cb612ac0a55e41b4,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e072870706e3d984283a1664de7320ec, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -179,6 +178,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CajaRompible
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853573975186051655, guid: 251c8624e01c15b468d2b8804159d173,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 251c8624e01c15b468d2b8804159d173, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1412277633721872653}
   - component: {fileID: 6091128848061310748}
   - component: {fileID: 1942952683}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Barrel_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 8986520128702383481}
   - component: {fileID: 4708820018920662982}
   - component: {fileID: 1422655724185946388}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: mesh_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 3897111203152755940}
   - component: {fileID: 2490324778502958217}
   - component: {fileID: 721575455299222261}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: mesh_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 2670058872226979809}
   - component: {fileID: 7774634803820655031}
   - component: {fileID: 5078391928071752372}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: mesh_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 5185903440414214699}
   - component: {fileID: 7442886945235647463}
   - component: {fileID: 2120037151344046042}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: mesh_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
