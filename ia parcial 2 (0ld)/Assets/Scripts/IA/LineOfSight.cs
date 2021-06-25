@@ -7,8 +7,6 @@ public class LineOfSight : MonoBehaviour
 	public float range;
 	public float angle;
 	public LayerMask mask;
-	public LineRenderer rightLine;
-	public LineRenderer leftLine;
 	public bool IsInSight(Transform target)
 	{
 		float distanceToTarget = Vector3.Distance(target.position, transform.position);
