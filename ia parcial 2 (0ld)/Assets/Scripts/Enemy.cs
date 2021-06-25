@@ -10,7 +10,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float attackDistance;
 
 
-    private void Start()
+    public virtual void Awake()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
     }
