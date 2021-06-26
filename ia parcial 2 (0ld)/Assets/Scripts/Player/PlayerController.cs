@@ -17,8 +17,6 @@ public class PlayerController : MonoBehaviour, IPotionGrabber
 
     //public SaveLoad save_load;
 
-    
-
     private float m_currentV = 0;
     private float m_currentH = 0;
 
@@ -38,6 +36,7 @@ public class PlayerController : MonoBehaviour, IPotionGrabber
 
     private List<Collider> m_collisions = new List<Collider>();
 
+    //Bullet blt;
     public CheckPoint checkpoint;
     public int vidas = 5;
     public GameObject defender;
@@ -96,12 +95,11 @@ public class PlayerController : MonoBehaviour, IPotionGrabber
             isDefender = false;
             defender.gameObject.SetActive(false);
             return;
-        }
-        loadCheckPoint();
-        this.vidas -= 1;
-        this.GetComponent<ContadorDeVidas>().Life = this.vidas;
+        }  
+            loadCheckPoint();
+            this.vidas -= 1;
+            this.GetComponent<ContadorDeVidas>().Life = this.vidas;    
         //this.GetComponent<DamageTester>().daño();
-
         //ActualizarCorazones... en caso de tener 0 Proceder a video o Perder
     }
 
