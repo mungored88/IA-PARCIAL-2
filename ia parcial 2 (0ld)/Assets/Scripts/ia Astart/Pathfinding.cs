@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pathfinding : MonoBehaviour {
+public class Pathfinding : MonoBehaviour 
+{
 
     Grid GridReference;
     public Transform StartPosition;
     public Transform TargetPosition;
+
+    public  List<Node> EnemyPath; 
 
     private void Awake()
     {
@@ -16,7 +19,8 @@ public class Pathfinding : MonoBehaviour {
 
     private void Update()
     {
-        FindPath(StartPosition.position, TargetPosition.position);
+        EnemyPath = FindPath(StartPosition.position, TargetPosition.position);
+
     }
 
     List<Node> FindPath(Vector3 a_StartPos, Vector3 a_TargetPos)

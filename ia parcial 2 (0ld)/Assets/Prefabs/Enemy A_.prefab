@@ -318,6 +318,7 @@ GameObject:
   - component: {fileID: 8004663125116186959}
   - component: {fileID: 5664907981289024134}
   - component: {fileID: 1576119775}
+  - component: {fileID: 1566457522}
   m_Layer: 0
   m_Name: Enemy A_
   m_TagString: Untagged
@@ -366,6 +367,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2586ca2aef64e4384ade297519a153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1566457522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8004663125116190387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424857fed65e9764bac14843989c3718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  Pf: {fileID: 0}
 --- !u!1 &8004663125840246032
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,11 +488,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013931392504, guid: 30d420b7cf5d3ad40b5c02db6d73287a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000013931392504, guid: 30d420b7cf5d3ad40b5c02db6d73287a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000013931392504, guid: 30d420b7cf5d3ad40b5c02db6d73287a, type: 3}
       propertyPath: m_LocalRotation.w
