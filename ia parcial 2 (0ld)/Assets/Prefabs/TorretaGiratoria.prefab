@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8050924463487503118}
   - component: {fileID: 1946276496383787807}
   - component: {fileID: 6569904746686691678}
-  m_Layer: 10
+  m_Layer: 16
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -20030,7 +20030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceToPlayer: 0
   attackDistance: 2
-  explosion: {fileID: 7572637667355812720}
+  _audio: {fileID: 0}
   distanciaParaCorrer: 5
   distanciaParaExplotar: 1
   runSpeed: 3
@@ -34996,7 +34996,7 @@ GameObject:
   - component: {fileID: 1090209954504159052}
   - component: {fileID: 911583221969609649}
   - component: {fileID: 6247255564916738691}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
