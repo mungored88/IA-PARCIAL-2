@@ -16,6 +16,7 @@ public class Boton_Menus : MonoBehaviour
     }
     public void Exit()
     {
+        //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
     public void ReserPlayerPref()

@@ -194,8 +194,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.014159936, y: 0.015374994, z: 0.02820304}
-  m_Center: {x: -0.00028933046, y: 0.009796481, z: 0.0068539083}
+  m_Size: {x: 0.014159936, y: 0.015374994, z: 0.019338667}
+  m_Center: {x: -0.00028933046, y: 0.009796481, z: 0.0024217302}
 --- !u!82 &225922323
 AudioSource:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 424857fed65e9764bac14843989c3718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 7
   Pf: {fileID: 0}
 --- !u!1 &8004663125840246032
 GameObject:
